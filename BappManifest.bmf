@@ -1,0 +1,12 @@
+Uuid: 331b012fbe25ad510944454e7efb3679
+ExtensionType: 2
+Name: Copy Headers As -H Arguments
+RepoName: burp-copy-headers-as-args
+ScreenVersion: 1.3
+SerialVersion: 8
+MinPlatformVersion: 0
+ProOnly: False
+Author: n0kovo
+ShortDescription: Copy request headers in -H format (cURL, Wfuzz, Feroxbuster etc.)
+EntryPoint: CopyHeadersFormatted.py
+BuildCommand: 

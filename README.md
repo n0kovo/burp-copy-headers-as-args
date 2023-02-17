@@ -12,14 +12,14 @@ This string can then be pasted as part of a command with tools using this syntax
 
 - cURL
 - Gobuster
-- Feroxbuster
+- Feroxbuster *
 - Wfuzz
 - ffuf
 
 ## Known Issues
 
-- Feroxbuster doesn't like `Accept` or `Accept-Language` headers for some reason, so they're not included in the copied output.
-- Feroxbuster will only accept the `User-Agent` header using `-a,` / `--user-agent`, so personally I'm just manually changing that `-H` to `-a` 
+- *Feroxbuster doesn't like `Accept` or `Accept-Language` headers for some reason, so they're not included in the copied output.
+- *Feroxbuster will only accept the `User-Agent` header using `-a,` / `--user-agent`, so personally I'm just manually changing that `-H` to `-a` 
 
 ## TODO:
 

@@ -22,7 +22,7 @@ Feroxbuster doesn't like "Accept" headers for some reason, so they're not includ
 
 ## TODO:
 
-- TO DO: Make submenu with different formats like "--headers", "Without User-Agent" etc.
+- Make submenu with different formats like "--headers", "Without User-Agent" etc.
 
 ## Author
 

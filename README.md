@@ -16,9 +16,10 @@ This string can then be pasted as part of a command with tools using this syntax
 - Wfuzz
 - ffuf
 
-## Known Issue
+## Known Issues
 
-Feroxbuster doesn't like "Accept" headers for some reason, so they're not included in the copied output.
+- Feroxbuster doesn't like `Accept` or `Accept-Language` headers for some reason, so they're not included in the copied output.
+- Feroxbuster will only accept User-Agent header using `-a,` / `--user-agent`, so personally I'm just manually changing that `-H` to `-a` 
 
 ## TODO:
 

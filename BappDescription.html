@@ -11,5 +11,8 @@
 	<li>ffuf</li>
 </ul>
 
-Known issues: Feroxbuster doesn't like "Accept" headers for some reason, so they're not included in the copied output.
+Known issuess:
+- Feroxbuster doesn't like `Accept` or `Accept-Language` headers for some reason, so they're not included in the copied output.
+- Feroxbuster will only accept User-Agent header using `-a,` / `--user-agent`, so personally I'm just manually changing that `-H` to `-a`
+
 TO DO: Make submenu with different formats like "--headers", "Without User-Agent" etc.

@@ -5,14 +5,15 @@
 <p>This string can then be pasted as part of a command with a compatible tool like these:</p>
 <ul>
 	<li>cURL</li>
-	<li>Gobuster</li>
+	<li>Gobuster *</li>
 	<li>Feroxbuster</li>
+	<li>sqlmap</li>
 	<li>Wfuzz</li>
 	<li>ffuf</li>
 </ul>
 
 Known issuess:
-- Feroxbuster doesn't like `Accept` or `Accept-Language` headers for some reason, so they're not included in the copied output.
-- Feroxbuster will only accept the `User-Agent` header using `-a,` / `--user-agent`, so personally I'm just manually changing that `-H` to `-a`
+- *Feroxbuster doesn't like `Accept` or `Accept-Language` headers for some reason, so they're not included in the copied output.
+- *Feroxbuster will only accept the `User-Agent` header using `-a,` / `--user-agent`, so personally I'm just manually changing that `-H` to `-a`
 
 TO DO: Make submenu with different formats like "--headers", "Without User-Agent" etc.

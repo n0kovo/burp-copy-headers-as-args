@@ -13,6 +13,7 @@ This string can then be pasted as part of a command with tools using this syntax
 - cURL
 - Gobuster
 - Feroxbuster *
+- sqlmap
 - Wfuzz
 - ffuf
 
